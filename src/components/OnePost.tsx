@@ -57,8 +57,8 @@ const OnePost = () => {
             <div>
                 <BlockContent 
                 blocks={postData.body} 
-                projectId={sanityClient.clientConfig.projectId} 
-                dataset={sanityClient.clientConfig.dataset} />
+                projectId={sanityClient.client.config().projectId} 
+                dataset={sanityClient.client.config().dataset} />
             </div>
         </div>
     )
