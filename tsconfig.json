@@ -21,6 +21,7 @@
     "jsx": "react-jsx"
   },
   "include": [
+    "./node_modules/@sanity/base/types/**/*.ts", "./**/*.ts", "./**/*.tsx",
     "src"
   ]
 }
